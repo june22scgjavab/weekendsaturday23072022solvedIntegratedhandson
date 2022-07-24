@@ -75,7 +75,7 @@ public class Validator {
 		
 		boolean isValidTraineeName=true;
 		//String regex="JohnPaul";
-		String regex="^([A-Z][a-z]+)\\s([A-Z][a-z]{1,})$";
+		String regex="^(([^\\s]|[A-Z])[a-z]+)\\s([A-Z]([a-z]{1,}|[^\\s]))$";
 		if(!traineeName.matches(regex)) {
 			isValidTraineeName=false;
 		}

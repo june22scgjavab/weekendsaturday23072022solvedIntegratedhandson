@@ -24,12 +24,12 @@ public class InfyTrainingTester {
 	public static void main(String[] args) throws ConfigurationException{
 		infyTrainingServiceImpl=new InfyTrainingServiceImpl();
 		propertiesConfiguration=new Configurations().properties("configuration.properties");
-		//addTrainee();
-		generateTraineeDetails();
+		addTrainee();
+		//generateTraineeDetails();
 	}
 
 	public static void addTrainee() {
-		Trainee trainee = new Trainee("John Paul",LocalDate.of(2022, 7, 14) ,"Passport","john_paul" ,9876340976L);
+		Trainee trainee = new Trainee("John Paul",LocalDate.of(2022, 7, 24) ,"Passport","john_paul" ,9876340976L);
 		String mailId = null;
 		try {
 			mailId = infyTrainingServiceImpl.addTrainee(trainee);

@@ -310,3 +310,21 @@ com.infytraining.exception.InfyTrainingException: Validator.INVALID_DATEOFJOININ
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) [.cp/:?]
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) [.cp/:?]
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+24-Jul-2022 08:10:22 ERROR - Validator.INVALID_DATEOFJOINING
+com.infytraining.exception.InfyTrainingException: Validator.INVALID_DATEOFJOINING
+	at com.infytraining.validator.Validator.validate(Validator.java:30) [classes/:?]
+	at com.infytraining.service.InfyTrainingServiceImpl.addTrainee(InfyTrainingServiceImpl.java:23) [classes/:?]
+	at com.infytraining.userinterface.InfyTrainingTester.addTrainee(InfyTrainingTester.java:35) [classes/:?]
+	at com.infytraining.userinterface.InfyTrainingTester.main(InfyTrainingTester.java:27) [classes/:?]
+24-Jul-2022 08:10:52 ERROR - Validator.INVALID_TRAINEENAME
+com.infytraining.exception.InfyTrainingException: Validator.INVALID_TRAINEENAME
+	at com.infytraining.validator.Validator.validate(Validator.java:30) [classes/:?]
+	at com.infytraining.service.InfyTrainingServiceImpl.addTrainee(InfyTrainingServiceImpl.java:23) [classes/:?]
+	at com.infytraining.userinterface.InfyTrainingTester.addTrainee(InfyTrainingTester.java:35) [classes/:?]
+	at com.infytraining.userinterface.InfyTrainingTester.main(InfyTrainingTester.java:27) [classes/:?]
+24-Jul-2022 08:12:38 ERROR - Validator.INVALID_TRAINEENAME
+com.infytraining.exception.InfyTrainingException: Validator.INVALID_TRAINEENAME
+	at com.infytraining.validator.Validator.validate(Validator.java:30) [classes/:?]
+	at com.infytraining.service.InfyTrainingServiceImpl.addTrainee(InfyTrainingServiceImpl.java:23) [classes/:?]
+	at com.infytraining.userinterface.InfyTrainingTester.addTrainee(InfyTrainingTester.java:35) [classes/:?]
+	at com.infytraining.userinterface.InfyTrainingTester.main(InfyTrainingTester.java:27) [classes/:?]
